@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b227275-ed53-41a3-8c88-4857c8285a8c">
+  <name>СвойстваФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства форм</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

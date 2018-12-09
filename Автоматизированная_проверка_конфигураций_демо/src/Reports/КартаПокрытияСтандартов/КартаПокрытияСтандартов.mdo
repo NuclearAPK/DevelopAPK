@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c55a5d1f-3190-4913-a3e1-778cf14da02e">
+  <producedTypes>
+    <objectType typeId="43850dd1-a9cd-4aa3-82ee-19a4669722df" valueTypeId="20a38689-2dcd-48ce-84b5-4298349966d3"/>
+    <managerType typeId="7a296085-17a1-4d90-bcd4-06af8dc7f813" valueTypeId="ce765fa4-ea0f-4154-8599-54f2466b74ef"/>
+  </producedTypes>
+  <name>КартаПокрытияСтандартов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта покрытия стандартов</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.КартаПокрытияСтандартов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="c90b52e8-941f-4e5f-ac6b-3511ce2a057a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

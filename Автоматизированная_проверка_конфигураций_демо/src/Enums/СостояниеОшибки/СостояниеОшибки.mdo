@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01145c8f-d44f-4970-a7d3-e03e5f5e0e11">
+  <producedTypes>
+    <refType typeId="bbcd0498-b8df-424f-9abe-3b08e5e436d4" valueTypeId="190254ec-9e1b-4176-a801-e88eb49c2052"/>
+    <listType typeId="603bf643-6f77-4706-b549-e06f6bec7e23" valueTypeId="32d67544-8523-4aed-9baf-30de4d86e40a"/>
+    <managerType typeId="3fe2a1ab-6c74-4927-9f37-5f823c6a215c" valueTypeId="fb6c37e5-c234-41b5-86a9-523fb597676c"/>
+  </producedTypes>
+  <name>СостояниеОшибки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние ошибки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="67c12cd1-7a1b-4233-b138-9b0749bdc2fa">
+    <name>Зарегистрирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирована</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="89b5d377-7d41-4a17-bf14-2deea751bb2d">
+    <name>Исправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7a0e9a17-0b0e-480d-8194-e8ac87f61d43">
+    <name>Особенность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особенность</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

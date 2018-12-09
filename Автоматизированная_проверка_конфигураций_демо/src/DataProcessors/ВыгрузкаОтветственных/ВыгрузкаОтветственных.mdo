@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f59bd4d1-31a9-44c2-bdf9-0e7caf4e8f7d">
+  <producedTypes>
+    <objectType typeId="9766813d-7d71-4c6c-892b-d49ff810144f" valueTypeId="e95b6ace-eea0-485e-a0e2-ff2e5fac145e"/>
+    <managerType typeId="0133457c-1e48-407b-a913-caf2aa219d68" valueTypeId="5427fa65-5962-4273-b54a-3844b9756584"/>
+  </producedTypes>
+  <name>ВыгрузкаОтветственных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка ответственных</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ВыгрузкаОтветственных.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a93d3661-f604-46bd-87ae-85a77dc91bd2">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd21ffcd-0bc7-4653-bc6e-08d46401a899">
+    <name>ПутьКФайлуСОтветственными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу с ответственными</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5c398f09-540f-4c1c-a8a5-33515fcb84eb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

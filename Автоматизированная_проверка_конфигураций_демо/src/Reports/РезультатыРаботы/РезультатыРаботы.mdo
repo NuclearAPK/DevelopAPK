@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d0bc1b3-637f-44ca-a636-c1f22008abec">
+  <producedTypes>
+    <objectType typeId="138f1f37-c710-4fcd-b3df-5549cf50948e" valueTypeId="45067c09-2606-4430-b414-ffbe7665f546"/>
+    <managerType typeId="e87e66c8-15ac-4058-9d0c-c2f63593f21b" valueTypeId="82d70fb4-c7d3-4913-9112-1d46836bf8ee"/>
+  </producedTypes>
+  <name>РезультатыРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты работы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РезультатыРаботы.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.РезультатыРаботы.Template.ВыполнениеТребованийВКонфигурациях</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="42ef6b56-1f4d-4ffd-80a7-facee034ee90">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="af61dc74-dd5b-469c-a169-fa5351a22369">
+    <name>ВыполнениеТребованийВКонфигурациях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение требований в конфигурациях</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="cd1f4c1d-f34d-40e5-bffb-1b00346559bb">
+    <name>ОшибкиПоОтветственным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки по ответственным</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="8cb4af46-49b4-4fe2-b7ba-da26aa9f4543">
+    <name>АнализОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ ошибок</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="68a5f4df-8601-417d-b356-009a61c34bf3">
+    <name>ОбщаяСводкаОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая сводка ошибок</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="bacc56bb-ba79-4fb5-b77c-8b4dbe2b54a9">
+    <name>ОбщаяСводкаОшибокПоТребованиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая сводка ошибок по требованиям</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a8ed8525-9e5d-4335-8fb6-248d99627fb9">
+    <name>РезультатыПроверкиТребований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты проверки требований</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="bd6923d3-4847-4964-baa4-b71d3ddc94e6">
+    <name>СогласованиеПроверок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование проверок</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

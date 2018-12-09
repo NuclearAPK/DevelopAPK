@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4394f2c2-272a-4da3-ad4d-44ce3d0eed3c">
+  <name>ВертикальнаяТочкаВерх</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вертикальная точка верх</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel/>
+</mdclass:CommonPicture>

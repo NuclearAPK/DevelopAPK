@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c37dded-8f9a-4906-b818-269fbb27c038">
+  <name>ИнтеграцияССППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с СППР</value>
+  </synonym>
+  <comment></comment>
+  <content>FunctionalOption.ИспользоватьИнтеграциюССППР</content>
+  <content>WebService.ErrorsExchange</content>
+  <content>Constant.ИспользоватьИнтеграциюССППР</content>
+  <content>Constant.АдресВебСервисаСППР</content>
+  <content>Constant.ПараметрыПодключенияСППР</content>
+  <content>CommonModule.ИнтеграцияССППР</content>
+  <content>CommonModule.ИнтеграцияССППРПовтИсп</content>
+  <content>CommonForm.ФормаРегистрацииОшибокВСППР</content>
+</mdclass:Subsystem>

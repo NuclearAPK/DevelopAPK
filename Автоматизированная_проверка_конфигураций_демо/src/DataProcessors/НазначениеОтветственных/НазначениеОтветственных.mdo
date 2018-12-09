@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="224209c8-e6dc-4cd9-a09b-16d590e66c2d">
+  <producedTypes>
+    <objectType typeId="9b42cc81-ce1f-4a5e-b97f-0e99000cc2f3" valueTypeId="38c53df1-ba56-4bfa-b42d-242d119b6ac1"/>
+    <managerType typeId="b21eb1fd-9d94-41a9-ab4b-dd388127442b" valueTypeId="e527cca8-270f-4235-95cd-1ecaa5f6f791"/>
+  </producedTypes>
+  <name>НазначениеОтветственных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение ответственных</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.НазначениеОтветственных.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1058c60d-6159-49f3-a81b-e88a11b806c6">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Версии</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6010ded8-5319-444c-8f08-4fadd3103718">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e54c959-940d-42e5-b2c5-dd6c0ce8a249">
+  <name>Общий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий</value>
+  </synonym>
+  <comment></comment>
+  <numberLength>9</numberLength>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>

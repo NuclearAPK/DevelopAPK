@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="629254ee-e752-4d5b-84bc-ef74167adb88">
+  <producedTypes>
+    <selectionType typeId="7b9fe12b-b277-4bbb-9f74-549bf27534ea" valueTypeId="114e45ef-0f2a-4ba5-bd45-40e3f9d13848"/>
+    <listType typeId="f0f4b031-4a08-413e-b28a-722dd671435a" valueTypeId="c7ab0305-4b36-451d-8160-9282a0c0762d"/>
+    <managerType typeId="e71ec59f-b0bb-49b3-8d72-b9d617d640fa" valueTypeId="99004ace-9193-4316-b8dc-f645f8fe7835"/>
+    <recordSetType typeId="b8e7bb57-09df-4797-b742-a42caec75f2a" valueTypeId="4ec5ac12-851a-4c06-aab5-c6923552311f"/>
+    <recordKeyType typeId="ffa1f2ef-e6cd-4fcb-b22c-b29eb1e191b8" valueTypeId="c54f6a0b-be9c-402c-94c8-cb9510beceb9"/>
+    <recordType typeId="c74ec08f-b737-4086-b7a3-9099d7d99a81" valueTypeId="f49cc372-dc2a-4c4e-a74a-da95c5e254d2"/>
+    <recordManagerType typeId="ae87f814-0d04-4edd-a207-e3d892e69d6f" valueTypeId="14faa816-bada-4f41-b3a4-ead47540063f"/>
+  </producedTypes>
+  <name>ВерсииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии объектов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ВерсииОбъектов.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="7658ccef-2a58-4fb5-be8e-c5183825c8ef">
+    <name>ВерсияОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия объекта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value> Версия объекта </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d6441efc-0784-4ddb-a8fc-2a6a6d5eaf56">
+    <name>АвторВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор версии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автор версии </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2b6b3f4b-acd8-43f4-9c9d-ceb8bd6f95c7">
+    <name>ДатаВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата версии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата версии </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="17eab511-e631-4e2d-99a0-50832b3710bd">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Задание</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value> Объект </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f1d7e909-9e07-4727-8d17-3ef4bc0a44e6">
+    <name>НомерВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер версии </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6ab52bfe-fe6b-4825-8c9e-a0448d0ceafb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

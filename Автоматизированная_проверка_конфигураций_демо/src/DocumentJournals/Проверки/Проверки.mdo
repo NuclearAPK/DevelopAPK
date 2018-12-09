@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb526ce9-a084-4384-ab9a-ee93b0f33b5e">
+  <producedTypes>
+    <selectionType typeId="e7e2e3d9-6ca4-40f5-8bab-ce906e7e4350" valueTypeId="f907ef13-a280-4cb4-96d8-354212b242e7"/>
+    <listType typeId="0f4e48a3-26a2-4403-896b-f118677a74dc" valueTypeId="b0b8afa6-7e57-4d5e-b324-3e526d572bad"/>
+    <managerType typeId="057fdd9e-27d7-4149-b3b5-d61e9f405524" valueTypeId="b4e47b9a-81c9-4356-9df2-acf998d176f5"/>
+  </producedTypes>
+  <name>Проверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПроверкаВерсии</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="14ea0fad-66a3-4315-8a2f-2ba379e0967d">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <comment></comment>
+    <indexing>Index</indexing>
+    <references>Document.ПроверкаВерсии.Attribute.Конфигурация</references>
+  </columns>
+  <columns uuid="2c8ac1f9-651d-443d-8f0b-a0f88df851e5">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПроверкаВерсии.Attribute.Версия</references>
+  </columns>
+  <columns uuid="33dcc578-3937-4b5a-bc69-aea803bc3982">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПроверкаВерсии.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="5578b8c2-a332-4197-8b93-c2a7d3c2fd67">
+    <name>ОбщееВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПроверкаВерсии.Attribute.ОбщееВремя</references>
+  </columns>
+  <columns uuid="7257d641-590f-46b5-a1f5-6cd3bd743481">
+    <name>ОбнаруженоОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обнаружено ошибок</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПроверкаВерсии.Attribute.ОбнаруженоОшибок</references>
+  </columns>
+  <columns uuid="7b4b92ca-9172-420e-9aed-b503d9680a4b">
+    <name>ВариантПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант проверки</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПроверкаВерсии.Attribute.ВариантПроверки</references>
+  </columns>
+  <columns uuid="1e70990d-64d2-4932-949c-b84da13366d3">
+    <name>ПроверяемыеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяемые объекты</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПроверкаВерсии.Attribute.ПроверяемыеОбъекты</references>
+  </columns>
+  <columns uuid="c233156d-672a-457a-8d62-b16e147868aa">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПроверкаВерсии.Attribute.Статус</references>
+  </columns>
+</mdclass:DocumentJournal>

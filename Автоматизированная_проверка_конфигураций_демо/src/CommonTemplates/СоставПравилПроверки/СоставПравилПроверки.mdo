@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcbb1939-a6e9-486e-bee8-58471059e80d">
+  <name>СоставПравилПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав правил проверки</value>
+  </synonym>
+  <comment></comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

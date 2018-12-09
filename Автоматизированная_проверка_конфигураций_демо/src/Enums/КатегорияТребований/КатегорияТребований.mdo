@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="097b5b8f-e2c2-4a58-9527-84e18110d1bd">
+  <producedTypes>
+    <refType typeId="17b095bb-4044-455d-a35d-c323128e3268" valueTypeId="dd1b58b8-b184-498e-bc6c-1d4877afc8cb"/>
+    <listType typeId="1a4a1d60-766f-4726-8a84-34c965772ff8" valueTypeId="f576dbc2-2811-4b1c-beac-7383bec79301"/>
+    <managerType typeId="487fa9dc-d4d9-4e75-92b9-939e11315cea" valueTypeId="4014a7e6-78ff-4cf6-a97f-525f43bde65e"/>
+  </producedTypes>
+  <name>КатегорияТребований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория требований</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b9a1d799-2a63-4f93-9856-31ee076208f6">
+    <name>Совместимо</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Совместимо</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c18d1063-2269-4243-bc4f-066906cf8ed8">
+    <name>Обязательно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательно к выполнению</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7ce7057b-2276-4c15-b4c4-5bae06f7fe32">
+    <name>Рекомендация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

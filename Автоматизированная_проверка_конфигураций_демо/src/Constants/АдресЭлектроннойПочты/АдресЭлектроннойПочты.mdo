@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52e94559-750a-4de6-9ee4-74000b5e7dd2">
+  <producedTypes>
+    <managerType typeId="56b417eb-6062-4360-9cfe-a0b14187f1b5" valueTypeId="b1a82397-c539-43b0-ab69-7b13840ffcc9"/>
+    <valueManagerType typeId="1ff43c63-0d07-49a2-9c10-1c1cac119d53" valueTypeId="b108b2ea-1e7d-4b99-a99a-03349675cdd5"/>
+  </producedTypes>
+  <name>АдресЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес электронной почты</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>256</length>
+    </stringQualifiers>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес электронной почты в формате пользователь@сервер</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

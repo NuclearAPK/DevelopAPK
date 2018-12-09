@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06daaf5c-9ec4-4736-a2cc-42f3ffe78a1f">
+  <producedTypes>
+    <refType typeId="694ab6d4-729c-4b31-91db-dd2c409a6057" valueTypeId="b4d40b5b-934f-4b68-91b9-20cf368efcfb"/>
+    <listType typeId="0bd6d150-29e3-4cd9-a8ce-ac4caab7b8b1" valueTypeId="acd38643-823b-4fff-a85f-68946e300072"/>
+    <managerType typeId="d3d184c3-38e0-430a-9a64-5c76ae5febb6" valueTypeId="d5b0a27b-5799-4e1d-a3f6-340f180c44e0"/>
+  </producedTypes>
+  <name>ТипыБлоковМодулей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы блоков модулей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e0905db-564b-4fe2-b2a8-8a649249bdfb">
+    <name>ОписаниеПеременной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание переменной</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a970ab5d-c537-4e3c-82d7-898c277eac62">
+    <name>ЗаголовокПроцедуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок процедуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6c122c09-b766-42f8-9f90-5f6eb2c32076">
+    <name>ОкончаниеПроцедуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание процедуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1ba061b0-bbc2-48bd-be25-e9658a882396">
+    <name>ЗаголовокФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок функции</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c2685a30-2c51-4a7b-b7b0-75d0125ec550">
+    <name>ОкончаниеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание функции</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a4098c2c-9ade-439c-a2f6-fcdd0a36e5c1">
+    <name>Операторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операторы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fb3d9035-4be8-4075-8084-12b0ff53a9f2">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a124cec2-e0e6-4c43-b3f3-ed2d62bd5dcd">
+    <name>СтрокаТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка текста</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

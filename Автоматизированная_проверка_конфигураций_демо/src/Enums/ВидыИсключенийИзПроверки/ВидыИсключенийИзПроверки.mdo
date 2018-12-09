@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4e0030e-728e-4343-a4e0-0bcc95d61648">
+  <producedTypes>
+    <refType typeId="8aff6e42-d497-4944-8698-5b55d48a72fe" valueTypeId="eb6be564-e328-4e22-a041-4b7c5fbc9510"/>
+    <listType typeId="45bdd089-0b65-4865-ad85-5d25677ec69c" valueTypeId="288e8980-c328-475f-a63d-484a60e51924"/>
+    <managerType typeId="e10f2d64-4603-4945-8290-3f064b61598b" valueTypeId="5c6a5ce2-254c-464b-a7a5-1d3a85dff86b"/>
+  </producedTypes>
+  <name>ВидыИсключенийИзПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды исключений из проверки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="370689e1-a1b8-4030-86b9-0f090cb8b76d">
+    <name>ВключатьСПрефиксом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать с префиксом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b33d04c7-58c3-46a5-9a4f-9f2d3b2d59b1">
+    <name>ИсключатьСПрефиксом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать с префиксом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="88124123-233e-4bfe-aa11-0eb86777d183">
+    <name>ВключатьПодсистему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать подсистему</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="37886013-7e05-43ea-82aa-61fa11546d9d">
+    <name>ИсключатьПодсистему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать подсистему</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3e3ec8a9-2586-4f39-bcbe-3ea0306753f7">
+    <name>ВключатьТипОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать тип объектов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9e4c3b2e-a0c4-49c0-9a5b-fedc64effcd3">
+    <name>ИсключатьТипОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать тип объектов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aec2b935-6df6-4741-a725-808f9dafd360">
+    <name>ВключатьОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать объект</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a26a0885-b2ca-4b32-bbfa-cc4561b1ce19">
+    <name>ИсключатьОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать объект</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a40e4440-a1e6-4abf-999c-9aa40b40cd54">
+  <name>ФормаВводаКомментария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма ввода комментария</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

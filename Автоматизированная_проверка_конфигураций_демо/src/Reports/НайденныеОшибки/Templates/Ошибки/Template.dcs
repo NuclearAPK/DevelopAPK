@@ -1,0 +1,1114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Ошибки</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Критичность</dataPath>
+			<field>Критичность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Критичность</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоОбнаружения</dataPath>
+			<field>МестоОбнаружения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Место обнаружения</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">18</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объект</dataPath>
+			<field>Объект</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ошибка</dataPath>
+			<field>Ошибка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибка</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">40</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Правило</dataPath>
+			<field>Правило</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Правило</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счетчик</dataPath>
+			<field>Счетчик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего ошибок</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<condition>true</condition>
+				<group>true</group>
+			</useRestriction>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">8</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уточнение</dataPath>
+			<field>Уточнение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнение</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">48</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>^</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Шрифт</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Font" faceName="Webdings" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">4</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Путь</dataPath>
+			<field>Путь</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект метаданных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расширение</dataPath>
+			<field>Расширение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	ВЫБОР
+		КОГДА НЕ НайденныеОшибки.Ответственный.Ссылка ЕСТЬ NULL
+			ТОГДА НайденныеОшибки.Ответственный
+		КОГДА НЕ НайденныеОшибки.Объект.Ответственный.Ссылка ЕСТЬ NULL
+			ТОГДА НайденныеОшибки.Объект.Ответственный
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта В (
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Форма),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Макет),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ТабличнаяЧасть),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Графа),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Измерение),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Ресурс),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Значение),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.УправляемаяФорма),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.СтандартныйРеквизит),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Команда),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПредопределенныйЭлемент),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Операция),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ШаблонURL)
+			)
+			ТОГДА НайденныеОшибки.Объект.Родитель.Ответственный
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Реквизит)
+			И НайденныеОшибки.Объект.Родитель.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ТабличнаяЧасть)
+				ТОГДА НайденныеОшибки.Объект.Родитель.Родитель.Ответственный
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Реквизит)
+			И НайденныеОшибки.Объект.Родитель.ТипОбъекта &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ТабличнаяЧасть)
+				ТОГДА НайденныеОшибки.Объект.Родитель.Ответственный
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Подсистема)
+			ТОГДА ВЫБОР
+				КОГДА НайденныеОшибки.Объект.Родитель.Ответственный.Ссылка ЕСТЬ NULL
+					ТОГДА НайденныеОшибки.Объект.Родитель.Родитель.Ответственный
+				ИНАЧЕ
+					НайденныеОшибки.Объект.Родитель.Ответственный
+			КОНЕЦ
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта В (
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Параметр),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.МетодШаблонаURL)
+			)
+			ТОГДА НайденныеОшибки.Объект.Родитель.Родитель.Ответственный
+	КОНЕЦ КАК Ответственный,
+	ВЫБОР
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта В (
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.HTTPСервис),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.WebСервис),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.WSСсылка),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.БизнесПроцесс),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ГруппаКоманд),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Документ),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ЖурналДокументов),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Задача),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Интерфейс),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Картинка),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Константа),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.КритерийОтбора),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Обработка),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ОбщаяКоманда),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ОбщаяУправляемаяФорма),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ОбщаяФорма),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ОбщийМакет),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ОбщийМодуль),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ОбщийРеквизит),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ОпределяемыйТип),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Отчет),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПакетXDTO),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПараметрСеанса),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Перечисление),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПланВидовРасчета),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПланВидовХарактеристик),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПланОбмена),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПланСчетов),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПодпискаНаСобытия),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.РегистрБухгалтерии),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.РегистрНакопления),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.РегистрРасчета),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.РегистрСведений),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.РегламентноеЗадание),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Роль),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Справочник),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Стиль),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ФункциональнаяОпция),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ХранилищеНастроек),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Язык),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ЭлементСтиля),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Конфигурация)
+			)
+			ТОГДА НайденныеОшибки.Объект
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ТабличнаяЧасть)
+			И НЕ НайденныеОшибки.Ответственный.Ссылка ЕСТЬ NULL
+				ТОГДА НайденныеОшибки.Объект.Родитель
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта В (
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Форма),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.УправляемаяФорма)
+			)
+			И НЕ НайденныеОшибки.Ответственный.Ссылка ЕСТЬ NULL
+				ТОГДА НайденныеОшибки.Объект
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта В (
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Форма),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Макет),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ТабличнаяЧасть),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Графа),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Измерение),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Ресурс),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Значение),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.УправляемаяФорма),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.СтандартныйРеквизит),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Команда),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ПредопределенныйЭлемент),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Операция),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ШаблонURL)
+			)
+			ТОГДА НайденныеОшибки.Объект.Родитель
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Реквизит)
+			И НайденныеОшибки.Объект.Родитель.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ТабличнаяЧасть)
+				ТОГДА НайденныеОшибки.Объект.Родитель.Родитель
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Реквизит)
+			И НайденныеОшибки.Объект.Родитель.ТипОбъекта &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.ТабличнаяЧасть)
+				ТОГДА НайденныеОшибки.Объект.Родитель
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Подсистема)
+			ТОГДА ВЫБОР 
+				КОГДА НайденныеОшибки.Объект.Родитель.Ответственный.Ссылка ЕСТЬ NULL
+					ТОГДА НайденныеОшибки.Объект.Родитель.Родитель
+				ИНАЧЕ
+					НайденныеОшибки.Объект.Родитель
+			КОНЕЦ
+		КОГДА НайденныеОшибки.Объект.ТипОбъекта В (
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Параметр),
+			ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.МетодШаблонаURL)
+			)
+			ТОГДА НайденныеОшибки.Объект.Родитель.Родитель
+	КОНЕЦ КАК Родитель
+
+ПОМЕСТИТЬ РодителиИОтветственныеОбъекта
+ИЗ
+	РегистрСведений.НайденныеОшибки КАК НайденныеОшибки
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.СтруктураКонфигурации КАК СтруктураКонфигурации
+		ПО НайденныеОшибки.Объект = СтруктураКонфигурации.Ссылка
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ОбнаруживаемыеОшибки КАК ОбнаруживаемыеОшибки
+		ПО НайденныеОшибки.Ошибка = ОбнаруживаемыеОшибки.Ссылка
+ГДЕ
+	СтруктураКонфигурации.Владелец = &amp;Версия
+	И НайденныеОшибки.Состояние &lt;&gt; &amp;СостояниеОсобенность
+	И ((ОбнаруживаемыеОшибки.Критичность = ЗНАЧЕНИЕ(Перечисление.УровниКритичностиОшибок.ПустаяСсылка))
+		ИЛИ ОбнаруживаемыеОшибки.Критичность.Порядок &lt;= &amp;МинимальнаяКритичность)
+	И (&amp;НеОтбиратьПоОшибке
+		ИЛИ НайденныеОшибки.Ошибка = &amp;Ошибка)
+	И (&amp;НеОтбиратьПоСостоянию
+		ИЛИ НайденныеОшибки.Состояние = &amp;Состояние)
+	И (&amp;НеОтбиратьПоРасширению
+		ИЛИ НайденныеОшибки.Объект.Расширение = &amp;Расширение)
+;
+
+ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	ВЫБОР
+		КОГДА НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Ответственный.Ссылка ЕСТЬ NULL
+			ТОГДА ТабличнаяЧастьОбъектаПодсистема.Подсистема.Ответственный
+		КОГДА НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Родитель.Ответственный.Ссылка ЕСТЬ NULL
+			ТОГДА ТабличнаяЧастьОбъектаПодсистема.Подсистема.Родитель.Ответственный
+		ИНАЧЕ
+			ТабличнаяЧастьОбъектаПодсистема.Подсистема.Родитель.Родитель.Ответственный
+	КОНЕЦ КАК Ответственный,
+	ВЫБОР
+		КОГДА НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Ответственный.Ссылка ЕСТЬ NULL
+			ТОГДА 1
+		КОГДА НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Родитель.Ответственный.Ссылка ЕСТЬ NULL
+			ТОГДА 2
+		КОГДА НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Родитель.Родитель.Ответственный.Ссылка ЕСТЬ NULL
+			ТОГДА 3
+		ИНАЧЕ
+			0
+	КОНЕЦ КАК Уровень,
+	ТабличнаяЧастьОбъектаПодсистема.НомерСтроки
+
+ПОМЕСТИТЬ ОтветственныеИзПодсистемУровеньНомерСтроки
+ИЗ
+	РодителиИОтветственныеОбъекта КАК НайденныеОшибки
+	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СтруктураКонфигурации.Подсистемы КАК ТабличнаяЧастьОбъектаПодсистема
+		ПО (ТабличнаяЧастьОбъектаПодсистема.Ссылка = НайденныеОшибки.Родитель)
+		И НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Ссылка ЕСТЬ NULL
+		И (НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Ответственный.Ссылка ЕСТЬ NULL
+			ИЛИ НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Родитель.Ответственный.Ссылка ЕСТЬ NULL
+			ИЛИ НЕ ТабличнаяЧастьОбъектаПодсистема.Подсистема.Родитель.Родитель.Ответственный.Ссылка ЕСТЬ NULL)
+ГДЕ
+	НайденныеОшибки.Ответственный.Ссылка ЕСТЬ NULL
+;
+
+ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	МИНИМУМ(НайденныеОшибки.Уровень)
+
+ПОМЕСТИТЬ ПервыйОтветственныйИзПодсистемПоУровню
+ИЗ
+	ОтветственныеИзПодсистемУровеньНомерСтроки КАК НайденныеОшибки
+
+СГРУППИРОВАТЬ ПО
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект
+;
+
+ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	МИНИМУМ(НайденныеОшибки.НомерСтроки)
+
+ПОМЕСТИТЬ ПервыйОтветственныйИзПодсистемПоНомеруСтроки
+ИЗ
+	ОтветственныеИзПодсистемУровеньНомерСтроки КАК НайденныеОшибки
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ ПервыйОтветственныйИзПодсистемПоУровню
+		ПО (ПервыйОтветственныйИзПодсистемПоУровню.Номер = НайденныеОшибки.Номер)
+			И (ПервыйОтветственныйИзПодсистемПоУровню.Уровень = НайденныеОшибки.Уровень)
+
+СГРУППИРОВАТЬ ПО
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект
+;
+
+ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	НайденныеОшибки.Ответственный
+
+ПОМЕСТИТЬ ПервыйОтветственныйИзПодсистемИтог
+ИЗ
+	ОтветственныеИзПодсистемУровеньНомерСтроки КАК НайденныеОшибки
+	ВНУТРЕННЕЕ СОЕДИНЕНИЕ ПервыйОтветственныйИзПодсистемПоНомеруСтроки
+		ПО ПервыйОтветственныйИзПодсистемПоНомеруСтроки.Номер = НайденныеОшибки.Номер
+			И (ПервыйОтветственныйИзПодсистемПоНомеруСтроки.НомерСтроки = НайденныеОшибки.НомерСтроки
+				ИЛИ НайденныеОшибки.НомерСтроки ЕСТЬ NULL)
+;
+
+ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	НайденныеОшибки.Ответственный КАК Ответственный
+
+ПОМЕСТИТЬ ОтветственныеИзПодсистем
+ИЗ
+	ПервыйОтветственныйИзПодсистемИтог КАК НайденныеОшибки
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	НайденныеОшибки.Ответственный КАК Ответственный
+ИЗ
+	РодителиИОтветственныеОбъекта КАК НайденныеОшибки
+ГДЕ
+	НайденныеОшибки.Ответственный.Ссылка ЕСТЬ NULL
+	И НайденныеОшибки.Номер НЕ В (
+		ВЫБРАТЬ
+			ПервыйОтветственныйИзПодсистемИтог.Номер
+		ИЗ
+			ПервыйОтветственныйИзПодсистемИтог
+	)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	НайденныеОшибки.Номер,
+	НайденныеОшибки.Объект,
+	НайденныеОшибки.Ответственный
+ИЗ
+	РодителиИОтветственныеОбъекта КАК НайденныеОшибки
+ГДЕ
+	НЕ НайденныеОшибки.Ответственный.Ссылка ЕСТЬ NULL
+;
+
+ВЫБРАТЬ
+	ОбъединениеОтветственных.Номер,
+	ОбъединениеОтветственных.Объект,
+	ОбъединениеОтветственных.Ответственный,
+	НайденныеОшибки.Ошибка,
+	НайденныеОшибки.Ошибка.Критичность КАК Критичность,
+	НайденныеОшибки.Уточнение,
+	НайденныеОшибки.МестоОбнаружения,
+	НайденныеОшибки.Состояние,
+	НайденныеОшибки.Правило,
+	НайденныеОшибки.Объект.Путь КАК Путь,
+	ВЫБОР
+		КОГДА КомментарииНайденныхОшибок.Комментарий ЕСТЬ NULL
+			ТОГДА &amp;ПустаяСтрока
+		ИНАЧЕ &amp;ЗнакКомментария
+	КОНЕЦ КАК Комментарий,
+	1 КАК Счетчик
+
+ПОМЕСТИТЬ ОшибкиСОтветственными
+ИЗ
+	ОтветственныеИзПодсистем КАК ОбъединениеОтветственных
+	ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НайденныеОшибки КАК НайденныеОшибки
+		ПО ОбъединениеОтветственных.Номер = НайденныеОшибки.Номер
+	ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КомментарииНайденныхОшибок КАК КомментарииНайденныхОшибок
+		ПО ОбъединениеОтветственных.Номер = КомментарииНайденныхОшибок.Номер
+;
+
+ВЫБРАТЬ
+	СтруктураКонфигурации.Ответственный
+
+ПОМЕСТИТЬ ОтветственныйЗаКонфигурацию
+ИЗ
+	Справочник.СтруктураКонфигурации КАК СтруктураКонфигурации
+ГДЕ
+	СтруктураКонфигурации.Владелец = &amp;Версия
+	И НЕ СтруктураКонфигурации.ПометкаУдаления
+	И СтруктураКонфигурации.ТипОбъекта = ЗНАЧЕНИЕ(Перечисление.ТипыОбъектов.Конфигурация)
+	И (&amp;НеОтбиратьПоОтветственному
+		ИЛИ СтруктураКонфигурации.Ответственный.Ссылка = &amp;Ответственный)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втОтветственные.Номер,
+	втОтветственные.Объект,
+	втОтветственные.Ответственный,
+	втОтветственные.Ошибка,
+	втОтветственные.Критичность,
+	втОтветственные.Уточнение,
+	втОтветственные.МестоОбнаружения,
+	втОтветственные.Состояние,
+	втОтветственные.Правило,
+	втОтветственные.Путь,
+	втОтветственные.Комментарий,
+	втОтветственные.Счетчик
+ПОМЕСТИТЬ Ошибки
+ИЗ
+	ОшибкиСОтветственными КАК втОтветственные
+ГДЕ
+	НЕ втОтветственные.Ответственный.Ссылка ЕСТЬ NULL
+	И (&amp;НеОтбиратьПоОтветственному
+		ИЛИ втОтветственные.Ответственный = &amp;Ответственный)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	втОтветственные.Номер,
+	втОтветственные.Объект,
+	ОтветственныйЗаКонфигурацию.Ответственный,
+	втОтветственные.Ошибка,
+	втОтветственные.Критичность,
+	втОтветственные.Уточнение,
+	втОтветственные.МестоОбнаружения,
+	втОтветственные.Состояние,
+	втОтветственные.Правило,
+	втОтветственные.Путь,
+	втОтветственные.Комментарий,
+	втОтветственные.Счетчик
+ИЗ
+	ОтветственныйЗаКонфигурацию КАК ОтветственныйЗаКонфигурацию,
+	ОшибкиСОтветственными КАК втОтветственные
+ГДЕ
+	втОтветственные.Ответственный.Ссылка ЕСТЬ NULL
+	И (&amp;НеОтбиратьПоОтветственному
+		ИЛИ ОтветственныйЗаКонфигурацию.Ответственный = &amp;Ответственный)
+
+СГРУППИРОВАТЬ ПО
+	втОтветственные.Номер,
+	втОтветственные.Объект,
+	ОтветственныйЗаКонфигурацию.Ответственный,
+	втОтветственные.Ошибка,
+	втОтветственные.Критичность,
+	втОтветственные.Уточнение,
+	втОтветственные.МестоОбнаружения,
+	втОтветственные.Состояние,
+	втОтветственные.Правило,
+	втОтветственные.Путь,
+	втОтветственные.Комментарий,
+	втОтветственные.Счетчик
+
+;
+	
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Ошибки.Объект.Расширение КАК Расширение,
+	Ошибки.Номер,
+	Ошибки.Объект,
+	Ошибки.Ответственный,
+	Ошибки.Ошибка,
+	Ошибки.Критичность,
+	Ошибки.Уточнение,
+	Ошибки.МестоОбнаружения,
+	Ошибки.Состояние,
+	Ошибки.Правило,
+	Ошибки.Путь,
+	Ошибки.Комментарий,
+	Ошибки.Счетчик
+ИЗ
+	Ошибки КАК Ошибки
+	
+УПОРЯДОЧИТЬ ПО
+	Ошибки.Объект.Расширение</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Счетчик</dataPath>
+		<expression>Сумма(Счетчик)</expression>
+		<group>Комментарий</group>
+		<group>Критичность</group>
+		<group>Объект</group>
+		<group>Ответственный</group>
+		<group>Ошибка</group>
+		<group>Правило</group>
+		<group>Состояние</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<parameter>
+		<name>Версия</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Версия</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Версии</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Версии.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>МинимальнаяКритичность</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Минимальная критичность</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НеОтбиратьПоОтветственному</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Не отбирать по ответственному</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НеОтбиратьПоОшибке</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Не отбирать по ошибке</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НеОтбиратьПоСостоянию</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Не отбирать по состоянию</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Ответственный</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ответственный</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Пользователи.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Ошибка</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ошибка</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ОбнаруживаемыеОшибки</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.ОбнаруживаемыеОшибки.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Состояние</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Состояние</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.СостояниеОшибки</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.СостояниеОшибки.Зарегистрирована</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СостояниеОсобенность</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Состояние особенность</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.СостояниеОшибки</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.СостояниеОшибки.Особенность</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ЗнакКомментария</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Знак комментария</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>1</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string">^</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПустаяСтрока</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пустая строка</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НеОтбиратьПоРасширению</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Не отбирать по расширению</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Расширение</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расширение</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Расширения</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">РасшифровкаСтроки</dcsat:value>
+					</dcsat:item>
+					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>Размещение</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Wrap</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Расшифровка</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:Parameter">ДанныеРасшифровки</dcscor:value>
+						</dcscor:item>
+					</dcsat:appearance>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>РасшифровкаСтроки</dcsat:name>
+			<dcsat:expression>МестоОбнаружения</dcsat:expression>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:DetailsAreaTemplateParameter">
+			<dcsat:name>ДанныеРасшифровки</dcsat:name>
+			<dcsat:fieldExpression>
+				<dcsat:field>НОМЕР</dcsat:field>
+				<dcsat:expression>НОМЕР</dcsat:expression>
+			</dcsat:fieldExpression>
+		</parameter>
+	</template>
+	<fieldTemplate>
+		<field>МестоОбнаружения</field>
+		<template>Макет1</template>
+	</fieldTemplate>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Критичность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Путь</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ошибка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уточнение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоОбнаружения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Счетчик</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Всего ошибок</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ЗнакКомментария</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">+</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НОМЕР</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Комментарий</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Критичность</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>МестоОбнаружения</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Объект</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Путь</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Ошибка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Правило</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Состояние</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Счетчик</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Уточнение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СостояниеОшибки.Исправлена</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:MediumSeaGreen</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Комментарий</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Критичность</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>МестоОбнаружения</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Объект</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Путь</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Ошибка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Состояние</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Правило</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Счетчик</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Уточнение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СостояниеОшибки.Особенность</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:Gray</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Расширение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Расширение</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Конфигурация</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">BeginAndEnd</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Расширение</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Ответственный</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Счетчик</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Всего ошибок</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Путь</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>Счетчик</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Всего ошибок</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:use>false</dcsset:use>
+									<dcsset:field>Счетчик</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

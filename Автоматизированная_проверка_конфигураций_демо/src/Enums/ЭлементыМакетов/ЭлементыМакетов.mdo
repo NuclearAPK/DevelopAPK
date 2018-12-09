@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fc23d13-c7cf-40c9-ba92-52143ff74ad0">
+  <producedTypes>
+    <refType typeId="8b73ccee-354f-4b12-b5a6-7df10adb79c9" valueTypeId="4bfba55e-bb66-4437-bdd1-e13b6efbe9ae"/>
+    <listType typeId="3c41c9f3-474b-4f1c-8e1c-0d62b6cca1d4" valueTypeId="7e49404f-98f9-4025-8ba4-6bbc9a1a3127"/>
+    <managerType typeId="583e6dab-3254-4fad-b42f-5c763e0ea3f9" valueTypeId="9d84dfa5-69ea-46be-b666-e57b1d80d0ae"/>
+  </producedTypes>
+  <name>ЭлементыМакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы макетов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e3745af-3b6c-4a46-82a8-64f7d16cd148">
+    <name>ОбластьТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область табличного документа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f9f23ad4-4f48-408e-87b9-77dbf1720c81">
+    <name>Рисунок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рисунок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8405c3c6-00a8-4764-a6eb-455f8537770e">
+    <name>КолонтитулТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонтитул табличного документа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="af138b1e-0ca0-42c9-b824-a1e168c43bd3">
+    <name>СлойГеографическойСхемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слой географической схемы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bda44d17-e7c5-45f1-9703-204f7a243d34">
+    <name>ЭлементГрафическойСхемыСоединительнаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы соединительная линия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bdd8c228-a466-44fb-89d1-aae085819c2a">
+    <name>ЭлементГрафическойСхемыДекоративнаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы декоративная линия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="609f0dc6-5100-4da7-9db8-43313ab315f8">
+    <name>ЭлементГрафическойСхемыДекорация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы декорация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4e2355aa-408e-4fc2-8d33-09c336fb7a51">
+    <name>ЭлементГрафическойСхемыДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы действие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d70de58a-579d-4c03-883d-d4a10a140c28">
+    <name>ЭлементГрафическойСхемыРазделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы разделение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="85fd3bda-db12-42a1-9906-d7a1d933d7fd">
+    <name>ЭлементГрафическойСхемыУсловие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы условие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fb87a007-fa89-4103-a269-d5bc6a32977c">
+    <name>ЭлементГрафическойСхемыЗавершение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы завершение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4a8d4de4-3c57-4019-a257-0969a70110e1">
+    <name>ЭлементГрафическойСхемыСтарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы старт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f9bb60fd-52e1-4ee9-9e1f-95af96fe97ea">
+    <name>ЭлементГрафическойСхемыСлияние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы слияние</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="44f36c42-fd3d-46db-a2b6-03769c7de577">
+    <name>ЭлементГрафическойСхемыВложенныйБизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы вложенный бизнес процесс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2d320ee5-2243-4673-9a7f-3182d07f516d">
+    <name>ЭлементГрафическойСхемыОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы обработка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7888b8df-3b7e-4e57-aff9-0410764088d9">
+    <name>ЭлементГрафическойСхемыВыборВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент графической схемы выбор варианта</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="81da80d4-83ea-47f1-8c2b-66219a00cfcd">
+    <name>ВариантЭлементаГрафическойСхемыВыборВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант элемента графической схемы выбор варианта</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

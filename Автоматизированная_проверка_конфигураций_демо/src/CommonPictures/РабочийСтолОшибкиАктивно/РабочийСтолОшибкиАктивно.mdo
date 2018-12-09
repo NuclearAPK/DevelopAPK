@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5d42af1-8767-45c4-93d0-286d391f070c">
+  <name>РабочийСтолОшибкиАктивно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочий стол ошибки активно</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>81</x>
+    <y>8</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

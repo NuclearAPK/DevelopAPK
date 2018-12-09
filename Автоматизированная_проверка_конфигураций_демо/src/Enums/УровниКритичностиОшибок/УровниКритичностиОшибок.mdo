@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0a00556-9340-448b-96c5-63aed9a472fa">
+  <producedTypes>
+    <refType typeId="8de06253-52c4-4627-8e57-4f08d17a9ca2" valueTypeId="3db00238-6fdf-4700-aa93-c9c69917f9a3"/>
+    <listType typeId="c832ca50-2ebc-4c7c-92fe-8c99cec2e4e5" valueTypeId="f579cfe3-a591-4099-a018-97a67a62a745"/>
+    <managerType typeId="be86156c-1e82-4d8a-86a8-0b35dd888110" valueTypeId="d2923f4a-761e-46af-9168-310155b5f7d1"/>
+  </producedTypes>
+  <name>УровниКритичностиОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни критичности ошибок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5fd92ebb-b597-4e8b-8d15-4def5f0bde0d">
+    <name>Совместимо</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Совместимо</value>
+    </synonym>
+    <comment>Критичный уровень, должен обязательно соблюдаться</comment>
+  </enumValues>
+  <enumValues uuid="60df0d2f-c33f-4d87-9455-1ca6b48963ed">
+    <name>Обязательно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательно к исполнению</value>
+    </synonym>
+    <comment>Обязательно при разработке типовых конфигураций</comment>
+  </enumValues>
+  <enumValues uuid="559b5659-e7d3-4b11-8680-9ea350601b69">
+    <name>Рекомендация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендация</value>
+    </synonym>
+    <comment>Для лучших разработчиков</comment>
+  </enumValues>
+</mdclass:Enum>

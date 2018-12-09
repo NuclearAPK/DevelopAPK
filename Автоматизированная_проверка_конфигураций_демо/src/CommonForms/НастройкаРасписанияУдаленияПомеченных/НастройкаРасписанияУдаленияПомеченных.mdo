@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c175869-8e18-4c18-a684-df8dae31973f">
+  <name>НастройкаРасписанияУдаленияПомеченных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка расписания удаления помеченных</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

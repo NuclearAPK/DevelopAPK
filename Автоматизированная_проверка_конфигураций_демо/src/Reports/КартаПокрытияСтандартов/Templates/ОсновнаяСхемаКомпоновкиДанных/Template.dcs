@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>КартаПокрытия</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Алгоритм</dataPath>
+			<field>Алгоритм</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статья</dataPath>
+			<field>Статья</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПроверки</dataPath>
+			<field>ТипПроверки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип проверки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Правило</dataPath>
+			<field>Правило</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Требования.Код КАК Номер,
+	Требования.Ссылка КАК Статья,
+	Требования.Представление,
+	Правила.Алгоритм,
+	ВЫБОР
+		КОГДА Требования.СпособПроверки = ЗНАЧЕНИЕ(Перечисление.СпособПроверки.Вручную)
+				ИЛИ Требования.СпособПроверки = ЗНАЧЕНИЕ(Перечисление.СпособПроверки.Автоматически)
+				ИЛИ Требования.СпособПроверки = ЗНАЧЕНИЕ(Перечисление.СпособПроверки.Полуавтоматически)
+			ТОГДА ВЫБОР
+					КОГДА Правила.РучнаяПроверка ЕСТЬ NULL 
+						ТОГДА ЗНАЧЕНИЕ(Перечисление.СпособПроверки.ПустаяСсылка)
+					КОГДА Правила.РучнаяПроверка = ИСТИНА
+						ТОГДА ЗНАЧЕНИЕ(Перечисление.СпособПроверки.Вручную)
+					ИНАЧЕ ЗНАЧЕНИЕ(Перечисление.СпособПроверки.Автоматически)
+				КОНЕЦ
+		ИНАЧЕ Требования.СпособПроверки
+	КОНЕЦ КАК ТипПроверки,
+	Правила.Ссылка КАК Правило,
+	Правила.Представление КАК ПравилоПредставление
+ИЗ
+	Справочник.Требования КАК Требования
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Требования.РеализацияТребования КАК ТребованияРеализацияТребования
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Правила КАК Правила
+			ПО ТребованияРеализацияТребования.ПравилоПроверки = Правила.Ссылка
+		ПО (ТребованияРеализацияТребования.Ссылка = Требования.Ссылка)
+
+УПОРЯДОЧИТЬ ПО
+	Номер</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статья</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПроверки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Правило</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Алгоритм</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

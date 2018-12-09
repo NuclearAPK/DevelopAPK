@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66f8aa89-a31d-405b-8b19-8f858dda278e">
+  <name>ВерсияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>3</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

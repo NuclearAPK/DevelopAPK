@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f5f41e6-bec3-491b-b75c-1ef0957d2815">
+  <producedTypes>
+    <objectType typeId="9b6775cb-6a01-422b-a745-c79b6839a05d" valueTypeId="dcd19a5e-557d-4ed2-8d85-ead7f2391912"/>
+    <managerType typeId="c35db745-c8a3-4c36-8f16-dea94fd08f33" valueTypeId="7bec84cc-b3b0-4dbb-a61a-507538b1af30"/>
+  </producedTypes>
+  <name>НайденныеОшибки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найденные ошибки</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.НайденныеОшибки.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.НайденныеОшибки.Template.Ошибки</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="37b6622b-7282-4420-a131-4c1ec828c2fd">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="33e2e8a5-528a-48a8-9187-c0bac8396570">
+    <name>Ошибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b23f6b48-dab1-45aa-9909-4d5f47b15903">
+    <name>ОшибкиПоТребованиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки по требованиям</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="431b7844-bb6e-4608-a0d8-dfdb89adeb26">
+    <name>ОшибкиПоОтветственным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки по ответственным</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ea22e484-ac70-49d8-8908-97c536cc6fb3">
+    <name>Особенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особенности</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="fe3b37e0-721f-46d7-a1cf-16dc788624a1">
+    <name>ОсобенностиПоТребованиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особенности по требованиям</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b304c8a2-4ada-411b-944e-40642449260f">
+    <name>АнализОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ ошибок версии</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b2d7dc91-f383-4661-8517-59ff1119933d">
+    <name>ОтчетПоПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по проверке</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5c7b9e84-d77a-4eb8-94d2-0fa496cf69e4">
+    <name>ЭкспортВСистемуУправленияПроектом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт в систему управления проектом</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="1b10096a-0b09-4850-84fd-23e0e393e168">
+    <name>Отчет1ССовместимо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет 1С: Совместимо</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="785bc9c7-d14f-4e35-a074-9dd018afec20">
+    <name>ОшибкиСводка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки для сводки</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

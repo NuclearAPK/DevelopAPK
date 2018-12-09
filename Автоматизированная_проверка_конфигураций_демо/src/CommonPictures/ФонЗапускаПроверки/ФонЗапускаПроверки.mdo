@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f569563-4b08-4e20-9ac8-876f223f3ed2">
+  <name>ФонЗапускаПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фон запуска проверки</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>205</x>
+    <y>53</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

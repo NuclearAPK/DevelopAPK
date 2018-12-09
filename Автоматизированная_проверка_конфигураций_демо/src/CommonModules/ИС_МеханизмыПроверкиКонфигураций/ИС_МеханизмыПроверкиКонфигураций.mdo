@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ebaa9e-0d5b-40a1-a8cf-6e756119d2f9">
+  <name>ИС_МеханизмыПроверкиКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Механизмы проверки конфигураций</value>
+  </synonym>
+  <comment>ИнфоСофт, Фоминых В.С., 23.09.2018</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edb52a13-1456-495f-a32f-46f7ec63fb91">
+  <name>ОбработкаУдаленияПроведенияПроверкаВерсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка удаления проведения проверка версии</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ПроверкаВерсии</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.Проверка.ОбработкаУдаленияПроведенияПроверкаВерсии</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81486ef4-99ea-4a9e-bf49-23e0a6b49960">
+  <producedTypes>
+    <refType typeId="fb8aa21e-8bb1-435d-b954-f0dd8efcbbf3" valueTypeId="0c8f745a-b34a-4895-a375-d4ed5bb32574"/>
+    <listType typeId="e694d38a-f191-4a02-bc31-ddce98f48c11" valueTypeId="35357f85-ecd0-41e7-8566-35510ec1fa8b"/>
+    <managerType typeId="beda2182-9a7a-42d5-a9f3-0c7024799cc0" valueTypeId="8c34a19d-4a24-4ce5-bcdf-c06daa9c012d"/>
+  </producedTypes>
+  <name>ЭтапыПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы проверки</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="88f1b594-5976-4b40-8765-6bb94461463a">
+    <name>ЗаполнитьСведенияОМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить сведения о метаданных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e031695f-a5fa-44ee-9b97-838163bfbc75">
+    <name>ЗаполнитьСведенияОФормах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить сведения о формах</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bf767873-fd6b-470b-9c8e-24daf8544dd4">
+    <name>УдалитьЗаполнитьСведенияОФормахИзXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Заполнить сведения о формах из XML</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d6cb62b3-b442-46f1-a78f-26112da9824d">
+    <name>ЗаполнитьСведенияОМодулях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить сведения о модулях</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b44bed74-6ad6-4ceb-a267-dac80ed2bfd2">
+    <name>ЗаполнитьСведенияОРолях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить сведения о ролях</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="62f7f8ef-d4cf-49af-b13b-10dbcddcdcde">
+    <name>ЗаполнитьСведенияОМакетах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить сведения о макетах</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="507e78f9-5e60-40b7-a025-83d86b64f3a0">
+    <name>ЗаполнитьСведенияОСправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить сведения о справке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="398c9bc6-3083-41c9-adb8-92d663f0ef27">
+    <name>ВыполнитьПлатформеннуюПроверкуКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить платформенную проверку конфигурации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8e441781-e47d-4ad0-99b4-76c1e0d3c17a">
+    <name>ВыполнитьПроверкуПримененияРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить проверку применения расширения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

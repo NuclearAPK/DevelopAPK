@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c2b5c7f-3851-48b2-a44a-4316662b833f">
+  <name>СписокСсылокПравила</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список ссылок правила</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>FixedArray</types>
+  </type>
+</mdclass:SessionParameter>

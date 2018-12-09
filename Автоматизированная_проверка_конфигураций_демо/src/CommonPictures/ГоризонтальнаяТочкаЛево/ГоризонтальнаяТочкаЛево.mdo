@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f229f4d6-2a49-4578-9522-61d713f073a3">
+  <name>ГоризонтальнаяТочкаЛево</name>
+  <synonym>
+    <key>ru</key>
+    <value>Горизонтальная точка лево</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>8</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d5eeb50-ee46-47c6-8261-7cb14631cdcd">
+  <producedTypes>
+    <objectType typeId="29270c38-9d8d-407a-8774-ea71891595c0" valueTypeId="a322fa61-93f9-44da-bb05-79b5214be41c"/>
+    <managerType typeId="488388cb-65d7-4a9c-b290-b72a5fd76054" valueTypeId="2955e2ca-9358-4268-8f2f-a535b1a22aeb"/>
+  </producedTypes>
+  <name>АктуализацияСловаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализация словаря</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АктуализацияСловаря.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="e807c8a1-9868-45ac-9751-5aa4a671f00a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

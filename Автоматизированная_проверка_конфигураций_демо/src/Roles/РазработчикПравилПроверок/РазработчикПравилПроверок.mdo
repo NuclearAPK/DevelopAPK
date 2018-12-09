@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="063fbedf-313d-4a04-a0e8-d0f399349e8b">
+  <name>РазработчикПравилПроверок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработчик правил проверок</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

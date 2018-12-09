@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="720e82ce-bfcb-4bb8-b320-58c3f3246be6">
+  <name>ИС_ВыполнениеПроверкиКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение проверки конфигураций</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.ИС_МеханизмыПроверкиКонфигураций.ВыполнитьРегламентнуюПроверку</methodName>
+  <description>Выполнение проверки конфигураций</description>
+  <key>992132b5-1e9f-465a-a132-1e7dfb2551d3</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

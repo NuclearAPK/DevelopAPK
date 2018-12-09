@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bfa8b6b-64fd-4003-af57-71326dba7702">
+  <name>ТекстСтандарта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст стандарта</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>9</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

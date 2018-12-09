@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6491e625-c2ac-4899-9b1f-9460bf632aab">
+  <name>ErrorsExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Errors exchange</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://www.1c.ru/acc</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>ErrorsExchange.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="18078176-c0b4-4da0-8f1a-5f0d57570a1e">
+    <name>GetInterfaceVersion</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get interface version</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetInterfaceVersion</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="5ecc7df0-473b-434b-ad6d-857a77e4152e">
+    <name>GetErrorsSummary</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get Errors summary</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetErrorsSummary</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8f91f664-ddf3-4bae-ae6a-cf091240f3b9">
+      <name>ErrorUID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Error UID</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="5acd9b6e-f5e4-4c7f-a983-6bf66ae4d993">
+    <name>GetErrors</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get Errors</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetErrors</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="e3c773b3-cdf6-4180-9746-13ed9398731c">
+      <name>ErrorUID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Error UID</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="26a7eb3d-d859-489c-b7f1-7fa2b5d82339">
+    <name>WriteErrors</name>
+    <synonym>
+      <key>ru</key>
+      <value>Write Errors</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>WriteErrors</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8e96cf44-2f1a-4ed5-ac26-18d724f35f7a">
+      <name>ErrorsTable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Errors table</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="0dd5e00d-35c2-4256-b842-b2e0290aba4e">
+    <name>GetFeatureReasons</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get feature reasons</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetFeatureReasons</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+</mdclass:WebService>

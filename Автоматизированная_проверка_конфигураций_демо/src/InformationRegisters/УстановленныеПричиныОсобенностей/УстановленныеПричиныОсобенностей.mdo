@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9ff4637-8c92-4430-978a-9d29f077a23c">
+  <producedTypes>
+    <selectionType typeId="fd9c78bc-a66d-4a4c-99c2-eae5b7814d2d" valueTypeId="c0c6804e-57f8-47e0-8c87-e631f8224743"/>
+    <listType typeId="fcbbb2ad-5e9a-43ce-abc9-8541a788ff67" valueTypeId="9742ca61-438c-45aa-a3d9-9db5e83c7be3"/>
+    <managerType typeId="42a491aa-4037-4d6f-89ef-50bec00482cb" valueTypeId="116e9715-4594-4111-b2bf-15709e7fcee6"/>
+    <recordSetType typeId="f1e35348-619c-4d44-9f20-b323ddd6c4fd" valueTypeId="f119edfd-91b5-4245-b2e1-d1f331073f3b"/>
+    <recordKeyType typeId="5f027ecd-46e2-4cfb-8ab4-fb2c1845bbb3" valueTypeId="a92f5665-40bd-45f2-ae24-7a3464aca8d0"/>
+    <recordType typeId="ef52f2ea-b717-4f99-946e-9f4c4d46a737" valueTypeId="b83aa618-d352-499d-ba96-0626cf35ffd0"/>
+    <recordManagerType typeId="08ee4af1-1532-4887-8a1c-427018193828" valueTypeId="b23e1e03-dd67-42f3-9f5f-7b5197ca330d"/>
+  </producedTypes>
+  <name>УстановленныеПричиныОсобенностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установленные причины особенностей</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cfe847d5-3a3c-46de-80f9-3569bfba4ab3">
+    <name>ДатаВыбораОсобенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выбора особенности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c14648de-ddf5-41da-9f27-aa66a1f0f40f">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ОбнаруживаемыеОшибки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ошибка </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81fad1f1-7245-48ff-ba7d-e66a3f9b700a">
+    <name>ПричинаОсобенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина особенности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПричиныОсобенности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Причина особенности </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d61d72cb-d78e-494d-9dbd-01c7e71f0ade">
+  <producedTypes>
+    <selectionType typeId="bdadd851-bb4a-4ba2-9ea1-af001f40cbc3" valueTypeId="b820278c-5b58-492a-893a-5339302b1f6f"/>
+    <listType typeId="75e18b68-8fb6-4e6a-8c91-e27b9087ba88" valueTypeId="a7719c9f-34c8-4a3c-9065-adfaad9006c3"/>
+    <managerType typeId="28d188b4-0e71-4df4-bc95-832c18bd1006" valueTypeId="4e1de6b8-2732-4d47-a212-3de60d961cff"/>
+    <recordSetType typeId="201b2a61-864a-4eed-9ecf-8137e5a5e1ec" valueTypeId="aa27f68b-6b75-4fc5-b31d-fad2000a41db"/>
+    <recordKeyType typeId="de69368f-375a-4cb8-adf5-d62c97f0611f" valueTypeId="ef635332-1212-4bca-8133-8fca81723828"/>
+    <recordType typeId="8df74b87-9985-41c6-b647-38c055cd41e6" valueTypeId="ba26e05e-c005-4430-bdf4-91f1a5d61fff"/>
+    <recordManagerType typeId="996ebcd2-ad02-42d7-ad2a-69c6a2a6068a" valueTypeId="0a8bebfd-217a-4803-8b59-eba26510ff01"/>
+  </producedTypes>
+  <name>ВерныеСлова</name>
+  <synonym>
+    <key>ru</key>
+    <value>Верные слова</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ВерныеСлова.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="1624903f-cb30-4240-9fe1-f045bac4129e">
+    <name>Слово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слово</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Слово </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="82059299-89f1-423f-b0b5-13e79f3fa7b5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

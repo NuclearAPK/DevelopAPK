@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59551094-c8cc-4646-9c8e-9128a74b3f44">
+  <producedTypes>
+    <managerType typeId="587be326-918b-48bb-8213-ba0a4cbbc1a8" valueTypeId="d90a23b0-4a22-4cfd-9c21-07197d70b9ae"/>
+    <valueManagerType typeId="6543690d-6626-48dc-9fda-db5e76ce5d69" valueTypeId="bade6998-f9f3-4577-baa7-32b3c378ba6d"/>
+  </producedTypes>
+  <name>ГруппаТребованийОрфографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа требований орфографии</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Требования</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d476fed-82c2-4841-890f-129863c8e5ef">
+  <producedTypes>
+    <selectionType typeId="b6127e22-2548-4244-850b-0ce943b2b07e" valueTypeId="a80aba47-c4ba-4be7-8abe-c9eba5ecd623"/>
+    <listType typeId="6d11f8c7-6487-49a5-b1dc-cdd5051d5077" valueTypeId="923b6259-ec14-4a7e-b1c3-907a3d6a4d2e"/>
+    <managerType typeId="026749e5-6dd5-4623-86c4-313a388e4378" valueTypeId="bd64980d-2c19-4db2-b7bb-8679cdf594bf"/>
+    <recordSetType typeId="6f80a658-86a2-4124-bd65-ef0f94c56e84" valueTypeId="08df415a-367a-40ec-8391-377a98e28bc9"/>
+    <recordKeyType typeId="9026b9b0-80df-4664-9daa-a27b0e5d5b06" valueTypeId="e512c596-404f-49d3-884f-e1494aa3553c"/>
+    <recordType typeId="37bc1eae-4b03-45ad-9250-c0b1b1f5ae83" valueTypeId="8e2378e7-f3d5-424d-9511-e338c25bbd9d"/>
+    <recordManagerType typeId="38f9da5e-e2fd-4590-a63e-4f2c69a5d55f" valueTypeId="108b58a5-8b52-4669-b05b-c46dda6b91c4"/>
+  </producedTypes>
+  <name>ТребованияККонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Требования к конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dimensions uuid="6a032bf7-b156-4f3f-8f8b-e87bf40e0e06">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конфигурация </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9a2c7524-a34d-49ec-8c61-e46e9ff478d0">
+    <name>ВариантПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант проверки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВариантыПроверки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.ТребованияККонфигурации.Dimension.Конфигурация</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6595317e-9215-4eee-878b-5b717d8f609a">
+    <name>Требование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Требования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Требование </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

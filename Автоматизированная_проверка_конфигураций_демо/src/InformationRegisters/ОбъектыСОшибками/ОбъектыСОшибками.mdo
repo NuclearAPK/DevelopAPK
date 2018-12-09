@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f431a099-76b8-44f0-9fef-8c8d07349bfb">
+  <producedTypes>
+    <selectionType typeId="7f676a65-861c-4b55-b4b3-9ad971e54b6b" valueTypeId="352fbab0-1d77-4b5c-81a7-c1f8d561787b"/>
+    <listType typeId="96ced94e-80eb-433a-a168-e9b0ac684b6b" valueTypeId="dafcabf0-88d4-44e2-a6f2-0401bbc782f7"/>
+    <managerType typeId="7acebe71-2b9d-43e7-9f7a-b3ba3062c356" valueTypeId="0826df84-929f-4703-853e-ad2f38dc0af8"/>
+    <recordSetType typeId="ef784a4f-5496-45e8-ba45-cda190335999" valueTypeId="7e7aaeeb-ce60-4f8d-ad8d-8f737e6b71d2"/>
+    <recordKeyType typeId="e2adfe2d-1c9e-4aea-9266-066bdb325182" valueTypeId="99ca08cb-283e-44ac-990a-279e9969dd3b"/>
+    <recordType typeId="e6c71301-0fe2-42ca-b519-1c8e5f33cff9" valueTypeId="139e1253-258e-4afd-becb-a54e90e4de92"/>
+    <recordManagerType typeId="4154bfc3-5c57-490a-bf32-58506d61b468" valueTypeId="ca37fb84-2cd4-4cf1-a99e-4b7f379c73fd"/>
+  </producedTypes>
+  <name>ОбъектыСОшибками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты с ошибками</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="9ba5fad0-ce8b-4522-89d4-4de0d9616160">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="8a55c762-3983-42df-86e6-941e64d0328c">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Версии</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4f8c94fa-891c-414b-8de4-6912e3fc89c6">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураКонфигурации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

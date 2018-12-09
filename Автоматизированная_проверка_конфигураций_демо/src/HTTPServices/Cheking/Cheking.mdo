@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0610344-8a56-4f39-9a4e-944a74206aa0">
+  <name>Cheking</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cheking</value>
+  </synonym>
+  <comment>ИнфоСофт, Фоминых В.С., 23.09.2018 Выполнение проверки указанной конфигурации</comment>
+  <rootURL>ConfigurationCheck</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="1c29def9-64a0-4708-b716-0447e8442dab">
+    <name>ПроверкаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка конфигурации</value>
+    </synonym>
+    <comment></comment>
+    <template>/{guid}</template>
+    <methods uuid="1f9e26f6-0804-49c4-98cd-a966ba214abf">
+      <name>getRunTest</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get run test</value>
+      </synonym>
+      <comment>Выполнение проверки</comment>
+      <handler>ПроверкаКонфигурацииgetRunTest</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1494bc0b-2fd6-4309-8fe5-ed25052197a7">
+    <name>БыстраяПроверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрая проверка</value>
+    </synonym>
+    <comment>посредством отправки через веб форму содержимого текста BSL</comment>
+    <template>/quick/</template>
+    <methods uuid="b436c153-f53a-4d65-83b7-13f10e025ecf">
+      <name>quickTest</name>
+      <synonym>
+        <key>ru</key>
+        <value>Quick test</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>POST</httpMethod>
+      <handler>БыстраяПроверкаquickTest</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="da9e3280-2b3f-406a-a3ad-59eecbef6c79">
+    <name>Test</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test</value>
+    </synonym>
+    <comment></comment>
+    <template>/{str}/s/</template>
+    <methods uuid="b5786062-6ba6-48df-8622-cc162a5a3611">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <comment></comment>
+      <handler>TestTest</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

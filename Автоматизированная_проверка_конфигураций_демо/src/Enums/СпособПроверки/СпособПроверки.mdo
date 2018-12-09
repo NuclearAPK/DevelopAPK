@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="303d88c9-e29a-4c54-a4c1-86952a276900">
+  <producedTypes>
+    <refType typeId="ec1da784-b80c-4e49-85a2-ff0a7bbb15b9" valueTypeId="854af338-44a5-4287-be71-d933fd0ebae3"/>
+    <listType typeId="9a0c5ebb-8df2-48dd-b638-884585dc6401" valueTypeId="9a02054b-4dc9-4773-8713-3fb92c00909d"/>
+    <managerType typeId="e7ee8d81-9397-4d28-8c39-52ea674c8436" valueTypeId="589ca179-66ce-4f27-b29e-2c42db3a3766"/>
+  </producedTypes>
+  <name>СпособПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ проверки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="58e47c1b-571e-4830-ad09-239aa4e90e31">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="854ee33b-9c11-48a2-a5f7-176f886f4370">
+    <name>Полуавтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полуавтоматически</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2384b3fe-4587-48c0-b852-60e2f4cfb64d">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вручную</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="725b5cac-2c25-4f14-8661-71c21ed6db8a">
+    <name>ОтсутствуетМетодика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует методика</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="df4c0e39-7822-473c-b9f8-755cc7b120cb">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6cc7fbb7-1911-4f62-8d63-59f9d9922755">
+    <name>ВРазработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В разработке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

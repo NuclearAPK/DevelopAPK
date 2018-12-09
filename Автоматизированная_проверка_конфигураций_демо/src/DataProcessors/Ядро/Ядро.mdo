@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95066923-ebf2-418c-b002-c5b88d6162f4">
+  <producedTypes>
+    <objectType typeId="f552cee4-47f4-440e-a1ca-4971d7a02b43" valueTypeId="59105459-e17a-4a6d-8233-6819fee8eb3b"/>
+    <managerType typeId="b353e7e7-6713-4b76-ad18-080f1e8fa3cb" valueTypeId="8fa330a2-9f00-42d5-bfb4-5fe4a61f5f77"/>
+  </producedTypes>
+  <name>Ядро</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ядро</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</value>
+  </explanation>
+  <attributes uuid="573ccc31-810b-4544-a359-10b6d6fe1e4c">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Версии</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

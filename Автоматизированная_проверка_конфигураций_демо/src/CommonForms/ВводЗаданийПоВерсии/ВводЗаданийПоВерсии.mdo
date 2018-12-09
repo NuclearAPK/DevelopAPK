@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2c6397d-1c8b-4c4e-b81e-797a70dd5dc1">
+  <name>ВводЗаданийПоВерсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод заданий по версии</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

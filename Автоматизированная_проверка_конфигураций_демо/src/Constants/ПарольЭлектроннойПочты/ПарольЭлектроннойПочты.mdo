@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6aa16f5d-e9c7-40a3-a3c0-e75f8be53f3b">
+  <producedTypes>
+    <managerType typeId="1ea36ad9-eaae-4a84-b026-1e8aa4b976e9" valueTypeId="a41478df-f8da-46c7-92de-8ff059292f00"/>
+    <valueManagerType typeId="5793e815-9584-4364-b510-6fac1988f8c1" valueTypeId="79477dbc-7c56-4cce-b723-5f437051edfd"/>
+  </producedTypes>
+  <name>ПарольЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль электронной почты</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <passwordMode>true</passwordMode>
+  <toolTip>
+    <key>ru</key>
+    <value>Пароль для доступа на SMTP/POP3 сервер</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

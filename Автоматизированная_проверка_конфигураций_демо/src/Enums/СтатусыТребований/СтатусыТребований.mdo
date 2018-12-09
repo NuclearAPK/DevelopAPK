@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd47a7d1-0818-4dc9-85c3-37922fb0aa2b">
+  <producedTypes>
+    <refType typeId="21b0edbb-5b2c-4991-b892-4972ad763725" valueTypeId="898fbd90-f7fd-489c-8974-7009cfbdc4f4"/>
+    <listType typeId="fbb323c3-888e-4b53-9591-027f9eb7306f" valueTypeId="547c0e3b-6994-47bf-97d6-add8048f4242"/>
+    <managerType typeId="d8fa3910-fe76-480e-91e8-3bc6cbb3c81f" valueTypeId="84085266-17c7-48c8-af8a-8aa517ae8dca"/>
+  </producedTypes>
+  <name>СтатусыТребований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы требований</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a673c1b2-a591-4cd0-b8d2-1f7b9b476983">
+    <name>Новое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ee6d2f35-a4f6-46a9-a523-a39e26f96ef4">
+    <name>Измененное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененное</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b386b2e1-7b37-4e20-8b71-e63f5cdf0890">
+    <name>Первоначальное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первоначальное</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

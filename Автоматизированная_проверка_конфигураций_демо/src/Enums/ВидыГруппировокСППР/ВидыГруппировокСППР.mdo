@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4795ccd-1d0d-40d8-8172-ce91e130dc46">
+  <producedTypes>
+    <refType typeId="4ca2d6bc-f6c0-4675-8f51-4f96847c21b6" valueTypeId="7826adb0-8f25-4317-84ae-67b88d8cddb2"/>
+    <listType typeId="1e58bf12-03df-44cc-9f00-f28df9f57111" valueTypeId="9a8bfa7a-6cdb-469d-bf62-7605ed7fe224"/>
+    <managerType typeId="7c5c4849-e207-4ff1-a311-3eebe0b72c4d" valueTypeId="cb4bc4c4-d167-4931-8935-c3991bfc9142"/>
+  </producedTypes>
+  <name>ВидыГруппировокСППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды группировок СППР</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cc9cf001-5982-4cea-b0ff-472896a3fcee">
+    <name>НеГруппировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не группировать (на усмотрение СППР)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c10e5a1f-b458-40bd-8a46-ab6e122da434">
+    <name>ПоНазваниюОшибкиИОбъектуМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>По названию ошибки и объекту метаданных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1a55e18f-561d-489f-9b19-5ea69da0fc74">
+    <name>ПоНазваниюОшибкиИОтветственному</name>
+    <synonym>
+      <key>ru</key>
+      <value>По названию ошибки и ответственному</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59c47af9-fe34-4aa4-90e8-4d3c439fce45">
+  <producedTypes>
+    <selectionType typeId="e895544a-56b4-4e08-ac7c-fc257bf427c2" valueTypeId="9d340b3e-5d66-4c12-9a3e-da6a947645e2"/>
+    <listType typeId="7800f30d-cc52-46b6-8344-3fd70887b2e9" valueTypeId="bc831896-905a-40c8-af6f-fb1da78e1367"/>
+    <managerType typeId="e92c0830-7518-4ac9-b08f-890ffcd12f1e" valueTypeId="72cd1c65-7d62-4fae-9b0d-da1e3395314f"/>
+    <recordSetType typeId="e71273a5-0de1-403e-91cb-adc7dbe1d885" valueTypeId="a3b4f844-264f-4d7b-a839-d7ec6d4abc64"/>
+    <recordKeyType typeId="4237c207-9838-41b7-bd50-6df4d6b5b2cb" valueTypeId="639030e9-101a-408e-8a4e-8ee63fabdf58"/>
+    <recordType typeId="407b83e5-1003-41ed-afe4-090d3ab60fb9" valueTypeId="3f74c882-1ed3-4a85-8fba-9bd443e27a61"/>
+    <recordManagerType typeId="aed7df1b-9415-4492-913c-1ecc2af9bb6d" valueTypeId="fcf422e1-e853-41f7-97c7-79bb34d82c50"/>
+  </producedTypes>
+  <name>ЗначенияФлажковРолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения флажков ролей</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="304d407f-e9d3-4405-9026-a85526e8fb2d">
+    <name>УстанавливатьПраваДляНовыхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливать права для новых объектов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Устанавливать права для новых объектов </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="98e371c6-e476-434a-8c9d-7f18beda8a09">
+    <name>УстанавливатьПраваДляРеквизитовТабличныхЧастей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливать права для реквизитов табличных частей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Устанавливать права для реквизитов табличных частей </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c16f3f65-164d-4903-a2e3-d45ae8fda1be">
+    <name>НезависимыеПраваПодчиненныхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Независимые права подчиненных объектов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Независимые права подчиненных объектов </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="dcb2afb2-81bd-4b19-ba9a-b95cea54f416">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Версии</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия конфигурации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e26c6b53-9741-4c1c-a548-df1f01d08417">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураКонфигурации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Роль </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9f7050d-5f94-43c8-bacb-547b6214a17c">
+  <name>ШрифтТекстаКомментария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт текста комментария</value>
+  </synonym>
+  <comment></comment>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontDef">
+      <faceName>Arial</faceName>
+      <height>9.0</height>
+    </value>
+  </value>
+</mdclass:StyleItem>

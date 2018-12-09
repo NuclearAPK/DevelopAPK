@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f44e5732-7b30-431b-a9aa-4472ea2dc0f3">
+  <producedTypes>
+    <refType typeId="ffe8513a-5ca8-4e92-a2ea-5ae98b3556a2" valueTypeId="62c489cb-2d1d-4970-9eac-dccc9fd98668"/>
+    <listType typeId="20be9bb5-321b-4bb9-bcd4-0f711f38bef6" valueTypeId="287bf474-aba5-4e41-85bd-3a41b7d06534"/>
+    <managerType typeId="de3c0324-2468-4cbf-9e27-e2c0afecf19f" valueTypeId="cbbc8e28-41ed-443a-9ed5-68b529b3066a"/>
+  </producedTypes>
+  <name>ЭлементыУправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы управления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1e4a0af-704f-4b82-ad7d-60f8c6f597c8">
+    <name>Индикатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индикатор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="63968c9e-d65d-47b2-bad3-f5e6bb979116">
+    <name>ПолеКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле календаря</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cb4c3e15-80c0-4c62-8f7e-c7418370a74d">
+    <name>Кнопка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2b26760b-4fa5-4375-b53c-1a84c11358e9">
+    <name>КоманднаяПанель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командная панель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4cf11f71-2857-4816-94d3-6e1eb06677ad">
+    <name>Надпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надпись</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1ac5962a-203e-481a-ac5c-ee254ce55112">
+    <name>Панель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3a679405-bf0b-4d8b-942b-8eb295262ba1">
+    <name>Переключатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переключатель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="65d20b09-266f-42df-abb7-4ea0407b7a81">
+    <name>ПолеТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле табличного документа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9ca7487c-9d0c-4ffa-90e8-4565422a4aac">
+    <name>ПолеHTMLДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле HTML Документа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="eb7a6ebb-4fae-4b06-aa94-a60a0eab0dba">
+    <name>ПолеТекстовогоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле текстового документа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e4dbfac5-5803-400e-9913-ff18e8ed79b9">
+    <name>ПолеВвода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле ввода</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a04d6117-8f49-4755-8c04-0ec1aa8f9920">
+    <name>ПолеВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле выбора</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="86766559-702c-49e8-bfd1-f5b81a1516b8">
+    <name>ПолеСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле списка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="14721b5b-46fd-4160-bda9-4d887045702c">
+    <name>ПолеКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле картинки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c3bf9e2d-6139-4216-8cc8-f392c6b0a84f">
+    <name>ПолосаРегулирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полоса регулирования</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a2b8ba1e-3610-4584-8813-500c79c8d8b3">
+    <name>Разделитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="558d9461-44d9-49d3-bf47-f70d457ce33e">
+    <name>РамкаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рамка группы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="96fb79d7-6264-4071-8c33-48c8565fd53a">
+    <name>ТабличноеПоле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличное поле</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e72c37b2-7078-4fee-bbac-7a9e510371d3">
+    <name>Флажок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Флажок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cb87fea2-a7e2-42f3-b6a2-801ed1f19e61">
+    <name>ПолеГрафическойСхемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле графической схемы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f5f5e329-577d-4739-9a2e-dedd086dc7d1">
+    <name>ПолеГеографическойСхемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле географической схемы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ae44b7ff-970b-48ab-b064-10a51404f0ef">
+    <name>КнопкаКоманднойПанели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка командной панели</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9d6da0be-2109-4016-b80e-f8ff81c311b7">
+    <name>КолонкаТабличногоПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка табличного поля</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

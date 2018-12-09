@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6aa8d0c1-19f5-4028-8926-fc0e3e48f916">
+  <producedTypes>
+    <managerType typeId="36505e59-4fff-4e6b-8283-f13a9bcc1e78" valueTypeId="bfd7b7b4-8621-4579-8413-05992fd67cad"/>
+    <valueManagerType typeId="99d85b21-7b41-4634-b33d-399cafe342d2" valueTypeId="7018377d-4411-4d80-9471-61ece46cf934"/>
+  </producedTypes>
+  <name>ИС_КоличествоЛогическихПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество логических процессов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+    </numberQualifiers>
+  </type>
+  <defaultForm>CommonForm.НастройкаПараметров</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a0b2db3-18f1-4bd4-bf52-d8dcbba64b35">
+  <producedTypes>
+    <managerType typeId="f75b5bde-2bd1-4948-ad73-ae486983d087" valueTypeId="14dbfd71-b230-41b5-889e-b752af1e70ad"/>
+    <valueManagerType typeId="c3eab7d7-431e-4cb3-aeac-415c73768b9c" valueTypeId="2d120aec-e55d-493e-b11a-327b3df7a499"/>
+  </producedTypes>
+  <name>ИС_НомераЗаданийПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера заданий проверки</value>
+  </synonym>
+  <comment>ИнфоСофт, Фоминых В.С., 24.09.2018</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

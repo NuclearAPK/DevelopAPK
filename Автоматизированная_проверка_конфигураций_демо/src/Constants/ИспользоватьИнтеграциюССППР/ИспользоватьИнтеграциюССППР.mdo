@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83ab4ddf-2251-4777-83f9-92b0ba763ab3">
+  <producedTypes>
+    <managerType typeId="92df6137-da48-4a48-92a9-9f7c59a0c8ff" valueTypeId="bc92f8f4-8f25-4300-8c3d-96fda41be2f6"/>
+    <valueManagerType typeId="b137f4a8-b457-492a-ba2e-3bea28203578" valueTypeId="a21fb827-a26c-4ac9-bfe0-7823580f235e"/>
+  </producedTypes>
+  <name>ИспользоватьИнтеграциюССППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию с СППР</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="457edf0c-3fd0-4924-942f-2fe9151670e3">
+  <name>ИС_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты ИнфоСофт</value>
+  </synonym>
+  <comment>ИнфоСофт, Фоминых В.С., 23.09.2018</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>HTTPService.Cheking</content>
+  <content>Enum.ИС_СостоянияЗадачПроверок</content>
+  <content>InformationRegister.ИС_ЗаданияПроверки</content>
+  <content>Constant.ИС_НомераЗаданийПроверки</content>
+  <content>Constant.ИС_КоличествоЛогическихПроцессов</content>
+</mdclass:Subsystem>
